@@ -24,6 +24,8 @@ public class exercicio_07 {
 		
 		System.out.println("Convertida em Fahrenheit: " + f);
 
+		sc.close();
+		
 	}
 
 }

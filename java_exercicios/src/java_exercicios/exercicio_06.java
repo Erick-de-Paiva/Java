@@ -33,6 +33,8 @@ public class exercicio_06 {
 		System.out.println("Valor A = " + valorA);
 		System.out.println("Valor B = " + valorB);
 		
+		sc.close();
+		
 	}
 
 }
