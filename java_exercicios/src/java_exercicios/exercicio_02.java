@@ -8,8 +8,8 @@ public class exercicio_02 {
 	public static void main(String[] args) {
 		
 		/*
-		 2. Faça um algoritmo que receba dois números e ao final mostre a soma, subtração, multiplicação e a divisão dos dois números lidos; 
-		*/
+		 * 2. Faça um algoritmo que receba dois números e ao final mostre a soma, subtração, multiplicação e a divisão dos dois números lidos; 
+		 */
 		
 		Scanner sc = new Scanner(System.in);
 		sc.useLocale(Locale.US);

@@ -7,9 +7,10 @@ public class exercicio_06 {
 
 	public static void main(String[] args) {
 		
-		/*6. Leia dois valores para as variáveis A e B, e efetuar as trocas dos valores de forma que a variável A passe a 
-		 *possuir ovalor da variável B e a variável B passe a possuir o valor da variável A. Apresentar os valores 
-		 *trocados;
+		/*
+		 * 6. Leia dois valores para as variáveis A e B, e efetuar as trocas dos valores de forma que a variável A passe a 
+		 * possuir ovalor da variável B e a variável B passe a possuir o valor da variável A. Apresentar os valores 
+		 * trocados;
 		 */
 		
 		Locale.setDefault(Locale.US);
