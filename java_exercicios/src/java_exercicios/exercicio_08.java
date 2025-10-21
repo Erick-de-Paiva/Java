@@ -18,7 +18,7 @@ public class exercicio_08 {
 		
 		float dolar, real, cotacao;
 		
-		System.out.print("Valor em Dólar (US$): ");
+		System.out.print("Valor em Dólar (US$): U$");
 		dolar = sc.nextFloat();
 		
 		System.out.print("Cotacao do Dólar: ");
@@ -26,7 +26,7 @@ public class exercicio_08 {
 		
 		real = dolar * cotacao;
 		
-		System.out.println("Valor convertido para Real (R$): " + "R$" + String.format("%.2f",real));
+		System.out.print("Valor convertido para Real (R$): " + "R$" + String.format("%.2f",real));
 		
 		sc.close();
 		
