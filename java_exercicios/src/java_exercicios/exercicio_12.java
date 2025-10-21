@@ -31,7 +31,7 @@ public class exercicio_12 {
 		
 		System.out.print("Valor final: " + "R$" + String.format("%.2f",valorFinal));
 		
-		sc.close();		
+		sc.close();
 	}
 
 }
