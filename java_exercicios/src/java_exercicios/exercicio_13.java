@@ -7,7 +7,7 @@ public class exercicio_13 {
 
 	public static void main(String[] args) {
 	
-		//13. Faça um algoritmo que receba um número e mostre uma mensagem caso este número seja maior que 10; 
+		// 13. Faça um algoritmo que receba um número e mostre uma mensagem caso este número seja maior que 10; 
 
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);

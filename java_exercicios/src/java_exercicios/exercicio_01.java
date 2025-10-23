@@ -7,7 +7,7 @@ public class exercicio_01 {
 
 	public static void main(String[] args) {
 		
-		//1. Faça um algoritmo que receba dois números e exiba o resultado da sua soma;
+		// 1. Faça um algoritmo que receba dois números e exiba o resultado da sua soma;
 		
 		Scanner sc = new Scanner(System.in);
 		sc.useLocale(Locale.US);
