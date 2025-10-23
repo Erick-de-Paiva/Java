@@ -23,6 +23,8 @@ public class exercicio_15 {
 			System.out.println("O numero nao esta entre 100 e 200!");
 		}
 		
+		sc.close();
+		
 	}
 
 }
