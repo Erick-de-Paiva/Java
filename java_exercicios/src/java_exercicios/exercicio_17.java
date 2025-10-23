@@ -19,7 +19,7 @@ public class exercicio_17 {
 		int contador = 0;
 		
 		for (int i = 0; i < 80; i++) {
-			System.out.println("Escreva o numero " + (i+1) + ":");
+			System.out.print("Escreva o numero " + (i+1) + ":");
 			n[i] = sc.nextFloat();
 			
 			if (n[i] >= 10 && n[i] <= 150) {
