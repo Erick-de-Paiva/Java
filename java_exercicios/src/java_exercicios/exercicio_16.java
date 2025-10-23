@@ -17,25 +17,33 @@ public class exercicio_16 {
 		Scanner sc = new Scanner(System.in);
 		
 		String nome;
-		float nota1, nota2, nota3, media;
+		float[]nota = new float[10];
+		float media = 0;
 		
 		System.out.print("Nome: ");
 		nome = sc.nextLine();
 		
-		System.out.print("Nota 1: ");
-		nota1 = sc.nextFloat();
+		for (int i = 1;i <= 3; i++) {
+			
+			System.out.print("Nota " + i + ": ");
+			nota[i] = sc.nextFloat();
+			
+			while (nota[i] < 0 || nota[i] > 10) {
+				System.out.println("Nota invalida!");
+				System.out.print("Nota " + i + ": ");
+				nota[i] = sc.nextFloat();
+			}	
+		}
 		
-		System.out.print("Nota 2: ");
-		nota2 = sc.nextFloat();
+		for (int i = 1;i <= 3; i++) {
+			media = media + nota[i];
+		}
 		
-		System.out.print("Nota 3: ");
-		nota3 = sc.nextFloat();
-		
-		media = (nota1 + nota2 + nota3) / 3;
+		media = media / 3;
 		
 		System.out.println();
 		System.out.println("Nome: " + nome);
-		System.out.println("Media: " + media);
+		System.out.println("Media: " + String.format("%.1f",media));
 		
 		if (media <= 5) {
 			System.out.print("Reprovado!");
