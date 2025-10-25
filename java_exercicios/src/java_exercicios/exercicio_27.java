@@ -18,7 +18,7 @@ public class exercicio_27 {
 		Scanner sc = new Scanner(System.in);
 		
 		char combustivel;
-		double valorAntes = 1, valorDepois = 0, totalDesconto = 0, totalPago = 0;
+		double valorAntes, valorDepois, totalDesconto = 0, totalPago = 0;
 		
 		System.out.print("Valor do veiculo sem desconto: R$");
 		valorAntes = sc.nextDouble();
