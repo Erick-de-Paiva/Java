@@ -17,7 +17,7 @@ public class exercicio_27 {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		char combustivel = 'a';
+		char combustivel;
 		double valorAntes = 1, valorDepois = 0, totalDesconto = 0, totalPago = 0;
 		
 		System.out.print("Valor do veiculo sem desconto: R$");
