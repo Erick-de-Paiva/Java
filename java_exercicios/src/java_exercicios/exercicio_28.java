@@ -38,6 +38,11 @@ public class exercicio_28 {
 			
 			System.out.print("Digite seu salario: R$");
 			salarioAntes[i] = sc.nextDouble();
+			while (salarioAntes[i] <= 0) {
+				System.out.println("Valor invalido!");
+				System.out.print("Digite seu salario: R$");
+				salarioAntes[i] = sc.nextDouble();
+			}	
 			
 			if (salarioAntes[i] < (salarioMinimo * 3)) {
 				salarioDepois[i] = salarioAntes[i] * 1.50;
